@@ -28,7 +28,7 @@ if re.search('github.com[:/]odoo/odoo.git$', sys.argv[2]):
 """
 
 def printf(f,*l):
-    print ("odoo:" + f )
+    print ("odoo:" + f % 1)
 
 def run(*l):
     if isinstance(l[0], list):
